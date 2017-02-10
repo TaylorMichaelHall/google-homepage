@@ -87,21 +87,10 @@
 #button {
   display: block;
   height: 60px;
-/*  height: 22px; */
-  width: 250px;
+  width: 265px;
   margin: auto;
   margin-top: 10px;
-/*  min-width: 250px; */
 }
-
-/*
-#buttoncontainer {
-  width: 800px;
-  border: none;
-  height: 60px;
-  margin: auto;
-}
-*/
 
 .button {
   font-family: Arial, sans-serif;
@@ -117,10 +106,6 @@
   display:inline;
   height: 30px;
   border: 1px solid #eaeaea;
-  /* Notes for buttons
-  Need the button border to show up only on mouseover
-  Other things happen during mouseover too
-  */
 }
 
 .button:hover {
