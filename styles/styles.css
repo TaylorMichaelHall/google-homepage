@@ -3,9 +3,17 @@
   height: 100px;
 }
 
+
+#wrapper {
+    min-height:100%;
+    position: relative;
+    padding:0;
+    margin:0;
+}
+
 .navbar {
   float: right;
-  width: 250px;
+  width: 255px;
 }
 
 .navli {
@@ -14,47 +22,38 @@
   float: left;
   height: 30px;
   line-height: 30px;
+
 }
 
-.navli a{
+.navli a {
   text-decoration: none;
   color: #000;
   font-size: 13px;
   padding-left: 15px;
-
 }
 
 .navli a:hover {
   text-decoration: underline;
 }
 
+  #sign_in a {
+    background-color: #4285f4;
+    font-weight: bold;
+    color: white;
+    padding: 7px 13px;
+    font-weight: bold;
+    height: 40px;
+    border: 1px solid ##4285f4;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-left: 14px;
+  }
 
-#signinbutton {
-  color: #fff;
-  font-weight: bold;
-  width: 43px;
-  height: 28px;
-  padding-left: 12px;
-  padding-right: 12px;
-}
 
 #icon {
-    padding-left:15px;
-    /*
-    filter: brightness(50%);
-    -webkit-filter: brightness(50%);
-    -moz-filter: brightness(50%);
-    -o-filter: brightness(50%);
-    -ms-filter: brightness(50%);
-    */
+/*    padding-left:0px; */
 }
 
-#wrapper {
-    min-height:100%;
-    position: relative;
-    padding:0;
-    margin:0;
-}
 
 .logo {
   display: block;
@@ -85,14 +84,24 @@
   font-weight: bold;
 }
 
-  #button {
+#button {
   display: block;
-  height: 22px;
+  height: 60px;
+/*  height: 22px; */
   width: 250px;
   margin: auto;
   margin-top: 10px;
-  min-width: 250px;
+/*  min-width: 250px; */
 }
+
+/*
+#buttoncontainer {
+  width: 800px;
+  border: none;
+  height: 60px;
+  margin: auto;
+}
+*/
 
 .button {
   font-family: Arial, sans-serif;
