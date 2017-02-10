@@ -36,18 +36,18 @@
   text-decoration: underline;
 }
 
-  #sign_in a {
-    background-color: #4285f4;
-    font-weight: bold;
-    color: white;
-    padding: 7px 13px;
-    font-weight: bold;
-    height: 40px;
-    border: 1px solid ##4285f4;
-    border-radius: 3px;
-    text-decoration: none;
-    margin-left: 14px;
-  }
+#sign_in a {
+  background-color: #4285f4;
+  font-weight: bold;
+  color: white;
+  padding: 7px 13px;
+  font-weight: bold;
+  height: 40px;
+  border: 1px solid ##4285f4;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-left: 14px;
+}
 
 
 #icon {
