@@ -1,0 +1,191 @@
+#header {
+  width: 100%;
+  height: 100px;
+}
+
+.navbar {
+  float: right;
+  width: 250px;
+}
+
+.navli {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+}
+
+.navli a{
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  padding-left: 15px;
+
+}
+
+.navli a:hover {
+  text-decoration: underline;
+}
+
+
+#signinbutton {
+  color: #fff;
+  font-weight: bold;
+  width: 43px;
+  height: 28px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#icon {
+    padding-left:15px;
+    /*
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    -moz-filter: brightness(50%);
+    -o-filter: brightness(50%);
+    -ms-filter: brightness(50%);
+    */
+}
+
+#wrapper {
+    min-height:100%;
+    position: relative;
+    padding:0;
+    margin:0;
+}
+
+.logo {
+  display: block;
+  width: 269px;
+  height: 95px;
+  margin: auto;
+  margin-top: 80px;
+  padding-top: 10px;
+  /* seems unneeded
+  padding-bottom: 10px;
+  */
+}
+
+.searchbar {
+  display: block;
+  position: relative;
+  padding-left: 10px;
+  width: 570px;
+  height: 38px;
+  margin: auto;
+  border-color: lightgrey;
+  border-radius: 3px;
+  line-height: 34px;
+  border-width: 1px;
+  box-shadow: 0px 4px 4px #888888;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+  #button {
+  display: block;
+  height: 22px;
+  width: 250px;
+  margin: auto;
+  margin-top: 10px;
+  min-width: 250px;
+}
+
+.button {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #686868;
+  background: #f2f2f2;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  display:inline;
+  height: 30px;
+  border: 1px solid #eaeaea;
+  /* Notes for buttons
+  Need the button border to show up only on mouseover
+  Other things happen during mouseover too
+  */
+}
+
+.button:hover {
+  border: 1px solid lightgrey;
+  color: black;
+}
+
+/*
+.specialnotice {
+  display: inline-block;
+  height: 48px;
+  margin: auto;
+  margin-bottom: 32px;
+  float: both;
+}
+*/
+
+#footer {
+  position: absolute;
+  display: block;
+  background-color: #f2f2f2;
+  bottom: 0;
+  left: 0;
+  height: 20px;
+  width: 100%;
+  clear: both;
+  border-top: 1px solid lightgrey;
+  padding-bottom: 30px;
+}
+
+#leftfoot {
+  display: inline-block;
+  width: 250px;
+  left: 0;
+}
+
+
+.lf {
+  display: inline-block;
+}
+
+.lf a {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  padding-left: 15px;
+}
+
+.lf a:hover {
+    text-decoration: underline;
+}
+
+#rightfoot {
+  float: right;
+  width: 400px;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+.rf {
+  display: inline-block;
+  margin: auto;
+}
+
+.rf a {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  padding-left: 15px;
+}
+
+.rf a:hover{
+ text-decoration: underline;
+}
