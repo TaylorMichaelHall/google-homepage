@@ -3,15 +3,6 @@
   height: 100px;
 }
 
-/* Don't need
-#wrapper {
-    min-height:100%;
-    position: relative;
-    padding:0;
-    margin:0;
-}
-*/
-
 .navbar {
   float: right;
   width: 255px;
@@ -23,7 +14,6 @@
   float: left;
   height: 30px;
   line-height: 30px;
-
 }
 
 .navli a {
@@ -63,9 +53,6 @@
   margin: auto;
   margin-top: 80px;
   padding-top: 10px;
-  /* seems unneeded
-  padding-bottom: 10px;
-  */
 }
 
 .searchbar {
@@ -113,16 +100,6 @@
   border: 1px solid lightgrey;
   color: black;
 }
-
-/*
-.specialnotice {
-  display: inline-block;
-  height: 48px;
-  margin: auto;
-  margin-bottom: 32px;
-  float: both;
-}
-*/
 
 #footer {
   position: absolute;
